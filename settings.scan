@@ -1,0 +1,31 @@
+#Rate over 1000 can cause major issues for a docker host
+#Rate over 20000 can cause issues over a 1Gbit NIC
+rate =   1000.00
+randomize-hosts = true
+seed = 5804244860458012382
+shard = 1/1
+# ADAPTER SETTINGS
+adapter = 
+adapter-ip = 0.0.0.0
+adapter-mac = 00:00:00:00:00:00
+router-mac = 00:00:00:00:00:00
+# OUTPUT/REPORTING SETTINGS
+output-format = xml
+show = open,,
+output-filename = scan.xml
+rotate = 0
+rotate-dir = .
+rotate-offset = 0
+rotate-filesize = 0
+pcap = 
+# TARGET SELECTION (IP, PORTS, EXCLUDES)
+retries = 0
+ports = 0-10000
+range = 192.168.1.0/24,192.168.2.0/24,192.168.5.0/24,192.168.10.0/24,192.168.3.0/24
+
+capture = cert
+#nocapture = html
+#nocapture = heartbleed
+#nocapture = ticketbleed
+
+min-packet = 60
