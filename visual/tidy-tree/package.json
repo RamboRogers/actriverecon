@@ -1,0 +1,14 @@
+{
+  "name": "@d3/tidy-tree",
+  "main": "5432439324f2c616@170.js",
+  "version": "170.0.0",
+  "homepage": "https://observablehq.com/@d3/tidy-tree",
+  "author": {
+    "name": "D3",
+    "url": "https://observablehq.com/@d3"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

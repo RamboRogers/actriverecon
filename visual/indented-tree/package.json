@@ -1,0 +1,14 @@
+{
+  "name": "@d3/indented-tree",
+  "main": "60d55953eb58a68d@335.js",
+  "version": "335.0.0",
+  "homepage": "https://observablehq.com/@d3/indented-tree",
+  "author": {
+    "name": "D3",
+    "url": "https://observablehq.com/@d3"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

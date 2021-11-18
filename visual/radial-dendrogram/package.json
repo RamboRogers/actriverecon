@@ -1,0 +1,14 @@
+{
+  "name": "@d3/radial-dendrogram",
+  "main": "bde1f995226f3be4@197.js",
+  "version": "197.0.0",
+  "homepage": "https://observablehq.com/@d3/radial-dendrogram",
+  "author": {
+    "name": "D3",
+    "url": "https://observablehq.com/@d3"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
