@@ -14,6 +14,7 @@ I started this project early in 2021 and haven't done much with it as its functi
 2. Open it in your browser: http://127.0.0.1:9009
 3. Use it from there 😎
 
+
 ## GO Packages (these should install on build)
 * https://gorm.io
 * https://github.com/labstack/echo 
@@ -63,10 +64,11 @@ View at http://127.0.0.1:9009
 ## Use a Prebuilt Docker Image
 
 I have a premade image here as well, github limits tranfers so this will break once I hit the 2GB limit.
+
 ```
-docker pull ghcr.io/ramborogers/activerecon:latest
-docker run --name activerecon --restart always -d -p 9009:9009 activerecon
+docker run --name activerecon --restart always -d -p 9099:9009 ghcr.io/ramborogers/activerecon:latest
 ```
+
 View at http://127.0.0.1:9009
 
 ---
