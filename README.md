@@ -63,7 +63,7 @@ View at http://127.0.0.1:9009
 
 ## Use a Prebuilt Docker Image
 
-I have a premade image here as well, github limits tranfers so this will break once I hit the 2GB limit.
+I have a premade image here as well, this is the easiest way to run this.
 
 ```
 docker run --name activerecon --restart always -d -p 9009:9009 im12whatisthis/activerecon:latest
