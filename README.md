@@ -66,7 +66,7 @@ View at http://127.0.0.1:9009
 I have a premade image here as well, github limits tranfers so this will break once I hit the 2GB limit.
 
 ```
-docker run --name activerecon --restart always -d -p 9099:9009 ghcr.io/ramborogers/activerecon:latest
+docker run --name activerecon --restart always -d -p 9099:9009 im12whatisthis/activerecon:latest
 ```
 
 View at http://127.0.0.1:9009
